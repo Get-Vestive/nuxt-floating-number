@@ -7,12 +7,13 @@
 ```vue
 <template>
   <div>
-    <button ref="el" @click="() => trigger(el.value, 1)">+1</button>
-    <button ref="el" @click="() => trigger(el.value, -1)">-1</button>
+    <button ref="plus" @click="() => trigger(plus, 1)">+1</button>
+    <button ref="minus" @click="() => trigger(minus, -1)">-1</button>
   </div>
 </template>
 
 <script setup>
-const el = ref(null)
 const { trigger } = useHitbox()
+const plus = ref(null)
+const minus = ref(null)
 </script>
