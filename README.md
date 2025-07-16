@@ -1,6 +1,6 @@
-# Floating Number
+# Hitbox Vue Composable
 
-> Minimal example of how to use `useFloatingNumber()` to trigger animated floating numbers on an element.
+> Minimal example of how to use `useHitbox()` to trigger animated floating numbers on an element.
 
 ## 🔧 Usage
 
@@ -14,5 +14,5 @@
 
 <script setup>
 const el = ref(null)
-const { trigger } = useFloatingNumber()
+const { trigger } = useHitbox()
 </script>
