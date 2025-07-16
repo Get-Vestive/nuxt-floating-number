@@ -1,4 +1,10 @@
-  export function useFloatingNumber() {
+/*!
+ * Copyright (c) 2025 Vestive, LLC
+ *
+ * This source code is licensed under the MIT license.
+ * See https://github.com/vestive/nuxt-floating-number/blob/main/LICENSE for details.
+ */
+export function useFloatingNumber() {
   function trigger(
     el: HTMLElement,
     value: number | string = 1,
