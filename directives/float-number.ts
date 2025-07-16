@@ -1,3 +1,9 @@
+/*!
+ * Copyright (c) 2025 Vestive, LLC
+ *
+ * This source code is licensed under the MIT license.
+ * See https://github.com/vestive/nuxt-floating-number/blob/main/LICENSE for details.
+ */
 import { useFloatingNumber } from '@/composables/useFloatingNumber'
 
 export default {
